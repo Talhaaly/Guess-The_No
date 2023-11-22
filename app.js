@@ -20,7 +20,7 @@ Label.textContent = randNum;
 if(userInput == randNum ){
 
     result.textContent = "Yur Anser is Correct"
-    document.querySelector("div").style.backgroundColor="green"
+    document.querySelector("div").style.backgroundColor="blue"
     alert("you are won")
   
 }
@@ -35,7 +35,7 @@ else if (userInput > randNum){
 
 else{
     // highScore = highScore-1
-    alert("try Againm")
+    alert("try Again")
     location.reload();
     result.textContent = " "
     randNum.textContent = " "

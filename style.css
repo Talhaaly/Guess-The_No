@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: black;
+    background-image: linear-gradient(blue , black);
     color: white;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@ header{
 }
 
 nav{
-    background-color: red;
+    background-image: linear-gradient(red , blue);
     border-radius: 40px;
     display: flex;
     justify-content: space-around;
